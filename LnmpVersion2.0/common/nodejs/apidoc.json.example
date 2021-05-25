@@ -1,0 +1,27 @@
+{
+  "name":"chunio apidoc",
+  "version":"0.1.0",
+  "description":"chunio apidoc",
+  "title":"chunio apidoc",
+  //接口地址
+  "url":"http://localhost.chunio.com",
+  //接口測試地址
+  "sampleUrl":"http://localhost.chunio.com"
+}
+
+//apidoc -c /data/website/chunio -o /data/website/chunio/apidoc
+
+//備註規範
+/**
+*@api {post} /system/login login
+*
+*@apiGroup outside
+*
+*@apiVersion 0.1.0
+*@apiParam {string} uername usernameDescription
+*@apiParam {string} password passwordDescription
+*@apiParam {string} captcha captchaDescription
+*
+*@apiSuccess {string} status returnDescription
+*@apiSuccess {string} message returnDescription2
+*/

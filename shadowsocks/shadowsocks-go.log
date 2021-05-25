@@ -1,0 +1,166 @@
+[H[2J
+#############################################################
+# One click Install Shadowsocks-go server                   #
+# Intro: https://teddysun.com/392.html                      #
+# Author: Teddysun <i@teddysun.com>                         #
+# Github: https://github.com/shadowsocks/shadowsocks-go     #
+#############################################################
+
+Please input password for shadowsocks-go:
+(Default password: teddysun.com):
+---------------------------
+password = Bx2107187233
+---------------------------
+
+Please input port for shadowsocks-go [1-65535]:
+(Default port: 8989):
+---------------------------
+port = 10703
+---------------------------
+
+
+Press any key to start...or Press Ctrl+C to cancel
+Loaded plugins: fastestmirror
+Setting up Install Process
+Loading mirror speeds from cached hostfile
+ * base: mirror.it.ubc.ca
+ * elrepo-kernel: elrepo.org
+ * extras: mirror.its.sfu.ca
+ * updates: mirror.it.ubc.ca
+Package wget-1.12-10.el6.i686 already installed and latest version
+Resolving Dependencies
+--> Running transaction check
+---> Package curl.i686 0:7.19.7-52.el6 will be updated
+---> Package curl.i686 0:7.19.7-53.el6_9 will be an update
+--> Processing Dependency: libcurl = 7.19.7-53.el6_9 for package: curl-7.19.7-53.el6_9.i686
+---> Package gzip.i686 0:1.3.12-22.el6 will be updated
+---> Package gzip.i686 0:1.3.12-24.el6 will be an update
+---> Package unzip.i686 0:6.0-5.el6 will be installed
+--> Running transaction check
+---> Package libcurl.i686 0:7.19.7-52.el6 will be updated
+---> Package libcurl.i686 0:7.19.7-53.el6_9 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package          Arch          Version                     Repository     Size
+================================================================================
+Installing:
+ unzip            i686          6.0-5.el6                   base          146 k
+Updating:
+ curl             i686          7.19.7-53.el6_9             base          197 k
+ gzip             i686          1.3.12-24.el6               base          114 k
+Updating for dependencies:
+ libcurl          i686          7.19.7-53.el6_9             base          176 k
+
+Transaction Summary
+================================================================================
+Install       1 Package(s)
+Upgrade       3 Package(s)
+
+Total download size: 634 k
+Downloading Packages:
+--------------------------------------------------------------------------------
+Total                                           678 kB/s | 634 kB     00:00     
+Running rpm_check_debug
+Running Transaction Test
+Transaction Test Succeeded
+Running Transaction
+  Updating   : libcurl-7.19.7-53.el6_9.i686                                 1/7 
+  Updating   : curl-7.19.7-53.el6_9.i686                                    2/7 
+  Installing : unzip-6.0-5.el6.i686                                         3/7 
+  Updating   : gzip-1.3.12-24.el6.i686                                      4/7 
+  Cleanup    : curl-7.19.7-52.el6.i686                                      5/7 
+  Cleanup    : libcurl-7.19.7-52.el6.i686                                   6/7 
+  Cleanup    : gzip-1.3.12-22.el6.i686                                      7/7 
+  Verifying  : curl-7.19.7-53.el6_9.i686                                    1/7 
+  Verifying  : gzip-1.3.12-24.el6.i686                                      2/7 
+  Verifying  : libcurl-7.19.7-53.el6_9.i686                                 3/7 
+  Verifying  : unzip-6.0-5.el6.i686                                         4/7 
+  Verifying  : gzip-1.3.12-22.el6.i686                                      5/7 
+  Verifying  : libcurl-7.19.7-52.el6.i686                                   6/7 
+  Verifying  : curl-7.19.7-52.el6.i686                                      7/7 
+
+Installed:
+  unzip.i686 0:6.0-5.el6                                                        
+
+Updated:
+  curl.i686 0:7.19.7-53.el6_9             gzip.i686 0:1.3.12-24.el6            
+
+Dependency Updated:
+  libcurl.i686 0:7.19.7-53.el6_9                                                
+
+Complete!
+
+--2018-07-22 22:47:26--  https://github.com/shadowsocks/shadowsocks-go/releases/download/1.1.5/shadowsocks-server-linux32-1.1.5.gz
+Resolving github.com... 192.30.255.112, 192.30.255.113
+Connecting to github.com|192.30.255.112|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github-production-release-asset-2e65be.s3.amazonaws.com/6486840/31ac4d2a-130a-11e6-83ab-362516f62ac7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180723%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180723T024727Z&X-Amz-Expires=300&X-Amz-Signature=5c8cb45c4fc0ecde4f96fb912618457170f9cca25a53e2a937a8855a908dde09&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dshadowsocks-server-linux32-1.1.5.gz&response-content-type=application%2Foctet-stream [following]
+--2018-07-22 22:47:27--  https://github-production-release-asset-2e65be.s3.amazonaws.com/6486840/31ac4d2a-130a-11e6-83ab-362516f62ac7?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20180723%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180723T024727Z&X-Amz-Expires=300&X-Amz-Signature=5c8cb45c4fc0ecde4f96fb912618457170f9cca25a53e2a937a8855a908dde09&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dshadowsocks-server-linux32-1.1.5.gz&response-content-type=application%2Foctet-stream
+Resolving github-production-release-asset-2e65be.s3.amazonaws.com... 52.216.1.176
+Connecting to github-production-release-asset-2e65be.s3.amazonaws.com|52.216.1.176|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1331209 (1.3M) [application/octet-stream]
+Saving to: “shadowsocks-server-linux32-1.1.5.gz”
+
+     0K .......... .......... .......... .......... ..........  3%  282K 4s
+    50K .......... .......... .......... .......... ..........  7%  426K 4s
+   100K .......... .......... .......... .......... .......... 11%  821K 3s
+   150K .......... .......... .......... .......... .......... 15%  843K 2s
+   200K .......... .......... .......... .......... .......... 19%  842K 2s
+   250K .......... .......... .......... .......... .......... 23%  850K 2s
+   300K .......... .......... .......... .......... .......... 26%  868K 2s
+   350K .......... .......... .......... .......... .......... 30%  869K 1s
+   400K .......... .......... .......... .......... .......... 34% 11.4M 1s
+   450K .......... .......... .......... .......... .......... 38%  915K 1s
+   500K .......... .......... .......... .......... .......... 42% 12.4M 1s
+   550K .......... .......... .......... .......... .......... 46%  908K 1s
+   600K .......... .......... .......... .......... .......... 49% 11.0M 1s
+   650K .......... .......... .......... .......... .......... 53% 13.7M 1s
+   700K .......... .......... .......... .......... .......... 57%  953K 1s
+   750K .......... .......... .......... .......... .......... 61% 11.6M 1s
+   800K .......... .......... .......... .......... .......... 65%  889K 0s
+   850K .......... .......... .......... .......... .......... 69% 12.9M 0s
+   900K .......... .......... .......... .......... .......... 73%  899K 0s
+   950K .......... .......... .......... .......... .......... 76%  873K 0s
+  1000K .......... .......... .......... .......... .......... 80% 11.2M 0s
+  1050K .......... .......... .......... .......... .......... 84%  895K 0s
+  1100K .......... .......... .......... .......... .......... 88%  895K 0s
+  1150K .......... .......... .......... .......... .......... 92% 10.5M 0s
+  1200K .......... .......... .......... .......... .......... 96%  913K 0s
+  1250K .......... .......... .......... .......... .......... 99% 11.5M 0s
+  1300K                                                       100% 16.8G=1.2s
+
+2018-07-22 22:47:28 (1.07 MB/s) - “shadowsocks-server-linux32-1.1.5.gz” saved [1331209/1331209]
+
+Decompress shadowsocks-server-linux32-1.1.5.gz success.
+--2018-07-22 22:47:28--  https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-go
+Resolving raw.githubusercontent.com... 151.101.0.133, 151.101.64.133, 151.101.128.133, ...
+Connecting to raw.githubusercontent.com|151.101.0.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2378 (2.3K) [text/plain]
+Saving to: “/etc/init.d/shadowsocks”
+
+     0K ..                                                    100% 4.26M=0.001s
+
+2018-07-22 22:47:29 (4.26 MB/s) - “/etc/init.d/shadowsocks” saved [2378/2378]
+
+firewall set start...
+WARNING: iptables looks like shutdown or not installed, please manually set it if necessary.
+firewall set completed...
+shadowsocks-go install success!
+Starting Shadowsocks-go success
+Shadowsocks-go start success!
+[H[2J
+Congratulations, Shadowsocks-go install completed!
+Your Server IP: [41;37m 74.82.204.144 [0m
+Your Server Port: [41;37m 10703 [0m
+Your Password: [41;37m Bx2107187233 [0m
+Your Local Port: [41;37m 1080 [0m
+Your Encryption Method: [41;37m aes-256-cfb [0m
+
+Welcome to visit:https://teddysun.com/392.html
+Enjoy it!
+
